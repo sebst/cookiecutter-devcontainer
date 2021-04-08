@@ -1,0 +1,10 @@
+{
+    "name": "{{cookiecutter.container_mame}}",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "{{cookiecutter.service_name}}",
+    "workspaceFolder": "{{cookiecutter.workspace_folder}}",
+    "extensions": [
+        "ms-python.python",
+        "VisualStudioExptTeam.vscodeintellicode"
+    ]
+}
